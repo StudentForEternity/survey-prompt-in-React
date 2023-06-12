@@ -9,6 +9,10 @@ body {
   background-color: hsl(216, 12%, 8%);
   font-family: "Overpass", sans-serif;
   font-size: 15px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -38,13 +42,12 @@ iframe {
   border-radius: 20px;
   display: grid;
   padding: 2em;
-  margin: 50px auto;
   transform: translateY(0);
   transition: transform 350ms;
 }
 
 .container-open {
-  transform: translateY(-150%);
+  transform: translateY(-200%);
 }
 
 .circle-container,
