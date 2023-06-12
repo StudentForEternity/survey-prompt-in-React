@@ -6,7 +6,7 @@ function App() {
   const [visibility, setVisibility] = React.useState(false)
 
   return (
-    <>
+    <main>
       <div
         className={`main-surv-container ${!visibility ? "" : "container-open"}`}
       >
@@ -75,7 +75,7 @@ function App() {
         </button>
       </div>
       {visibility && <Thank props={score} />}
-    </>
+    </main>
   )
 }
 
